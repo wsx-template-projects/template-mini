@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "疫情防控数字化应用"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "疫情防控数字化应用",		
+				"usingComponents": {
+					// "van-button": "/wxcomponents/vant/dist/button/index",
+					// "van-field": "/wxcomponents/vant/dist/field/index",
+					// "van-radio": "/wxcomponents/vant/dist/radio/index",
+					// "van-radio-group": "/wxcomponents/vant/dist/radio-group/index"
+				}
+			}
+		},
+		
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "疫情防控数字化应用"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages-login", //分包根路径
+			"pages": [	
+				{
+					"path": "login/index",
+					"style": {
+						"navigationBarTitleText": "疫情防控数字化应用"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages-sub-one", //分包根路径
+			"pages": [	
+				{
+					"path": "daily-report/report-form",
+					"style": {
+						"navigationBarTitleText": "每日疫情上报"
+					}
+				},
+				{
+					"path": "daily-report/report-record",
+					"style": {
+						"navigationBarTitleText": "上报记录"
+					}
+				},
+				{
+					"path": "daily-report/report-success",
+					"style": {
+						"navigationBarTitleText": "提交成功"
+					}
+				},
+				{
+					"path": "daily-report/report-details",
+					"style": {
+						"navigationBarTitleText": "上报详情"
+					}
+				},
+				{
+					"path": "daily-report/data-statistics",
+					"style": {
+						"navigationBarTitleText": "疫情上报统计"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages-demo", //分包根路径
+			"pages": [	
+				{
+					"path": "page-demo/demo-form",
+					"style": {
+						"navigationBarTitleText": "form-案例"
+					}
+				},
+				{
+					"path": "page-demo/demo-diy-form",
+					"style": {
+						"navigationBarTitleText": "diy-form-案例"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
+
+
+

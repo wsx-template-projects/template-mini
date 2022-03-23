@@ -1,16 +1,9 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		
-		{
-			"path": "pages/home/index",
-			"style": {
-				"navigationBarTitleText": "疫情防控数字化应用"
-			}
-		},
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "疫情防控数字化应用",		
+				"navigationBarTitleText": "标题",		
 				"usingComponents": {
 					// "van-button": "/wxcomponents/vant/dist/button/index",
 					// "van-field": "/wxcomponents/vant/dist/field/index",
@@ -19,11 +12,17 @@
 				}
 			}
 		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "标题"
+			}
+		},
 		
 		{
 			"path": "pages/webview/webview",
 			"style": {
-				"navigationBarTitleText": "疫情防控数字化应用"
+				"navigationBarTitleText": "标题"
 			}
 		}
 	],
@@ -34,7 +33,7 @@
 				{
 					"path": "login/index",
 					"style": {
-						"navigationBarTitleText": "疫情防控数字化应用"
+						"navigationBarTitleText": "标题"
 					}
 				}
 			]
@@ -78,13 +77,13 @@
 			"root": "pages-demo", //分包根路径
 			"pages": [	
 				{
-					"path": "page-demo/demo-form",
+					"path": "demo-form/index",
 					"style": {
 						"navigationBarTitleText": "form-案例"
 					}
 				},
 				{
-					"path": "page-demo/demo-diy-form",
+					"path": "demo-diy-form/index",
 					"style": {
 						"navigationBarTitleText": "diy-form-案例"
 					}

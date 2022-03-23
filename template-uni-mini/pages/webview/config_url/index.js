@@ -83,7 +83,7 @@ function getWebUrl (moduleName,type,param) {
 		console.warn('外链类型不存在，请前往 /pages/webview/config_url 查看一下')
 		return
 	}
-	// console.log("link-url:", `${config.web_domain}${configData[type]}`)
+	console.log("link-url:", `${config.web_domain}${configData[type]}`)
 	return `${config.web_domain}${configData[type]}`
 }
 

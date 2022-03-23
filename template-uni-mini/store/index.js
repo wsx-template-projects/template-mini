@@ -7,11 +7,12 @@ import createPersistedState from 'vuex-persistedstate'
 
 Vue.use(Vuex)
 
+// 数据持久化
 const vuexPersisted = new createPersistedState({
     storage: {
     	getItem: key => uni.getStorageSync(key),
         setItem: (key, value) => uni.setStorageSync(key, value),
-        removeItem: key => {}
+        removeItem: key => uni.clearStorageSync(key)
     }
 })
 

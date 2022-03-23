@@ -168,7 +168,7 @@ import {
 	IS_CONFIRM_RADIO_OPTIONS,
 	CONTROL_RADIO_OPTIONS,
 	CONTROL_CHECK_OPTIONS,
-} from "./enums/index.js"
+} from "../enums/index.js"
 export default {
 	components: {
 		MyField

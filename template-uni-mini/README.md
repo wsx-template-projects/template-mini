@@ -2,7 +2,7 @@
 
 疫情防控小程序
 
-### 技术栈
+## 技术栈
 
 uni-app + uni-ui
 
@@ -172,7 +172,28 @@ platform = wx/android/ios  (wx:微信小程序，android:安卓客户端，ios:i
 ```
 
 ### 发布
-发布二维码截图给李小娅
+
+发布二维码截图给小程序管理员
+
+### rpx 和 px 换算
+
+```bash
+
+rpx是微信小程序中css的尺寸单位，可以根据屏幕宽度进行自适配。
+
+规定屏幕宽度为750px，譬如iphone6，屏幕宽度为375px，共有750个物理像素，则1rpx = 0.5px。
+
+设备rpx换算px：屏幕宽度/750，px换算成rpx:750/屏幕宽度；
+
+iPhone5 1rpx = 0.42px 　　     1px = 2.34px ；
+
+iPhone6 1rpx = 0.5px 　　　　1px = 2rpx ；
+
+iPhone6s 1rpx = 0.552px 　　 1px = 1.81rpx；
+
+参考地址：https://www.jianshu.com/p/50ea4804f786
+
+```
 
 ### 注意
 
@@ -234,8 +255,16 @@ HBuilderX必须在 3.1.0 版本以上！，因为扩展组件 uni-ui 只在 3.1.
 
 ### 作者列表
 
-- 前端：王圣贤、马燕玲
-- 后端：高垒垒
-- 产品：谷磊
-- 设计师：周国兴
-- 项目经理：田润家
+- 前端：xxx
+- 后端：xxx
+- 产品：xxx
+- 设计师：xxx
+- 项目经理：xxx
+
+### 项目模板地址
+
+```bash
+# gitlab地址
+git@gitlab.icinfo.co:fed/uni-mini-template.git
+
+```

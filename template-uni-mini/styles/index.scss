@@ -1,64 +1,10 @@
-@import "./sg-flexbox.scss";
-@import "./vars.scss";
-@import "./uni-app-reset.scss";
+@import "./vars.scss"; // 样式变量
+@import "./uni-app-reset.scss"; // uni-app样式重置
+@import "./sg-flexbox.scss"; // 全局弹性盒类名
+@import "./global.scss"; // 全局类名（除去弹性盒类名）
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 }
 
-.sg-primary-color {
-    color: $primary-color;
-}
-
-.sg-link-color {
-    color: $link-color;
-}
-
-.sg-success-color {
-    color: $success-color;
-}
-
-.sg-info-color {
-    color: $info-color;
-}
-
-.sg-warning-color {
-    color: $warning-color;
-}
-
-.sg-error-color {
-    color: $error-color;
-}
-
-.sg-ellipsis,
-.sg-ellipsis-1 {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-}
-
-.sg-ellipsis-2 {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-}
-
-.sg-ellipsis-3 {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-}
-
-.sg-fixed-bottom {
-    position: fixed;
-    bottom: 0;
-    margin: 0 auto;
-    z-index: 999;
-}

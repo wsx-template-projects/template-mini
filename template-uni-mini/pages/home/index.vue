@@ -42,7 +42,7 @@ export default {
 			// const token = this.token || 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExMTExMTExMSIsI…EzjGjO4MMf4UQ4iF_Z9oQJ6ilaRwouiZP4MAVcRJs21utYutw'
 			// console.log("token:",token)
 			if (!token) {
-				// console.log("没有登录:")
+				console.log("没有登录，跳转登录页")
 				// this.getWxAuth()
 				const toUrl = `/pages-login/login/index?index=${index}&moduleName=home&type=${item.text}`
 				uni.navigateTo({ url: toUrl })

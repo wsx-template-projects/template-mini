@@ -8,7 +8,7 @@ import { request } from "@/utils/http.js"
 
 import config from "@/config"
 
-import '@/mock' // TODO:使用mock，后续处理成动态引入
+// import '@/mock' // TODO:使用mock，后续处理成动态引入
 
 
 // #ifndef VUE3

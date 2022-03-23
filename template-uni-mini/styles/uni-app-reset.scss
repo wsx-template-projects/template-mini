@@ -1,9 +1,18 @@
 // 重置 uni-app 组件样式
 
+.uni-body {
+	font-size: 24rpx;
+	line-height: 44rpx;
+}
+
 .uni-forms {
 	.uni-forms-item {
 		// .uni-error-message {
 		// 	bottom: -30rpx;
 		// }
 	}
+}
+
+uni-button {
+	overflow: visible;
 }
